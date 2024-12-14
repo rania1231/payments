@@ -1,4 +1,4 @@
-package enit.hamdi.backend_student_app.security;
+package enit.hamdi.backend_student_app.service;
 
 import enit.hamdi.backend_student_app.entities.Payment;
 import enit.hamdi.backend_student_app.entities.PaymentStatus;
@@ -8,8 +8,6 @@ import enit.hamdi.backend_student_app.repository.PaymentRepository;
 import enit.hamdi.backend_student_app.repository.StudentRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;

@@ -7,7 +7,7 @@ import enit.hamdi.backend_student_app.entities.Student;
 import enit.hamdi.backend_student_app.repository.PaymentRepository;
 import enit.hamdi.backend_student_app.repository.StudentRepository;
 
-import enit.hamdi.backend_student_app.security.PaymentService;
+import enit.hamdi.backend_student_app.service.PaymentService;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
