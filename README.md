@@ -1,1 +1,0 @@
-# quarkus-rest-client-tvmaze
